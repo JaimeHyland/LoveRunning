@@ -37,36 +37,49 @@
     </header>
 
     <!-- Main content -->
-    <main>
-        <h2>Let's get you signed up!</h2>
-        <form action="https://formdump.codeinstitute.net" method="post">
-            <label for="first-name">First Name</Label>
-            <input type="text" id="first-name" name="first-name"/> <br />
-            <label for="last-name"last-name">Last Name</label>
-            <input type="text" id="last-name" name="last-name" /><br />
-            <label for="email-address">Email Address</label>
-            <input type="email" name="email-address" id="email-address" /><br />
-            <label for="road">Road</label>
-            <input type="radio" name="discipline" id="road" value="road" /><br />
-            <label for="Trail">Trail</label>
-            <input type="radio" name="discipline" id="trail" value="trail" /><br />
-            <label for="Trail">Both</label>
-            <input type="radio" name="discipline" id="both" value="both" /><br />
-            <input type="submit" value="Let's run!">
-        </form>
+    <main id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <div id="text-inputs">
+                    <label for="first-name">First Name</Label>
+                    <input type="text" id="first-name" name="first-name" class="text-input" />
+                    <label for="last-name" last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name"  class="text-input" />
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email-address" id="email-address"  class="text-input" />
+                </div>
+                <div id="radio-buttons">
+                    <label for="road">Road</label>
+                    <input type="radio" name="discipline" id="road" value="road" /><br />
+                    <label for="Trail">Trail</label>
+                    <input type="radio" name="discipline" id="trail" value="trail" /><br />
+                    <label for="Trail">Both</label>
+                    <input type="radio" name="discipline" id="both" value="both" /><br />
+                </div>
+                <input id="submit" type="submit" class="join-button" value="Let's run!">
+            </form>
     </main>
 
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new browser tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our twitter timeline (opens in new browser tab)"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our youtube channel (opens in new browser tab)"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new browser tab)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in new browser tab)"><i
+                        class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our twitter timeline (opens in new browser tab)"><i
+                        class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our youtube channel (opens in new browser tab)"><i
+                        class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in new browser tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
 
     <!-- font awsome script -->
     <script src="https://kit.fontawesome.com/c92ad0e9bd.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
